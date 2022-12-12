@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html
+{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+
+   
+}
+.pomodoro_item {
+  
+
+}
+.pomodoro_box {
+    width: 22rem;
+    height: 38rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+
+
+}
+.setting {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid white;
+    /* margin-left: -191px; */
+    border-radius: 0 0 50px 0;
+
+
+}
+.timers {
+    width:15rem;
+    height: 15rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 2.4rem;
+
+    
+}
+.number {
+}
+.task {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+.count_num {
+}
+.submit_icons {
+}
+.icons_pause{
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    color: aliceblue;
+  
+}
